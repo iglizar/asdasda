@@ -11,7 +11,7 @@ const RedirectPage = () => {
     // })
 
     // Redirect to the Instagram profile
-    window.location.href = 'https://www.instagram.com/leomessi'
+    window.location.href = 'https://www.instagram.com/pragmaticplayarg'
   }, [])
 
   return <>
