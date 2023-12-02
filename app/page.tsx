@@ -1,7 +1,6 @@
 "use client"
+// import { Head } from 'next/document'
 import { useEffect } from 'react'
-import { useRouter } from 'next/router'
-import { Head } from 'next/document'
 
 const RedirectPage = () => {
 
@@ -16,25 +15,14 @@ const RedirectPage = () => {
   }, [])
 
   return <>
-
+{/* 
     <Head>
       <title>My Page Title</title>
       <meta name="description" content="Description of my page" />
       <link rel="icon" href="/favicon.ico" />
 
-      {/* Google Analytics Script */}
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-0KCFYYXM4F"></script>
-      <script
-        dangerouslySetInnerHTML={{
-          __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'G-0KCFYYXM4F');
-            `,
-        }}
-      />
-    </Head>
+      
+    </Head> */}
     <div>Redirecting...</div></>
 }
 
