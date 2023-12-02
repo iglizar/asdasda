@@ -25,7 +25,7 @@ const RedirectPage = () => {
       {/* Google Analytics Script */}
       <script async src="https://www.googletagmanager.com/gtag/js?id=G-0KCFYYXM4F"></script>
       <script
-        dangerouslySetInnerHTML={{
+        dangeroeuslySetInnerHTML={{
           __html: `
               window.dataLayer = window.dataLayer || [];
               function gtag(){dataLayer.push(arguments);}
